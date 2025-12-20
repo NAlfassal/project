@@ -83,7 +83,7 @@ if report is not None:
     c1.download_button("Download JSON", data=json_text, file_name=json_file)
     c2.download_button("Download Markdown", data=md_text, file_name=md_file)
 
-    # Save to outputs/ folder on disk
+    # Save to outputs
     if st.button("Save to outputs/"):
         out_dir = Path("outputs")
         out_dir.mkdir(parents=True, exist_ok=True)

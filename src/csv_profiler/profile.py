@@ -72,7 +72,7 @@ def profile_rows(rows: list[dict[str, str]]) -> dict:
                 profile.update({
                     "min": min(nums), 
                     "max": max(nums), 
-                    "mean": sum(nums) / len(nums)
+                    "mean": mean(nums)
                 })
         
         col_profiles.append(profile)

@@ -18,6 +18,10 @@ On Windows: $env:PYTHONPATH="src"
 Then run the app:
 
 uv run streamlit run app.py
+
+User Interface Preview:
+![CSV Profiler](images/ui.png)
+
 Or run the CLI:
 
 uv run python -m csv_profiler.cli profile data/sample.csv --out-dir outputs

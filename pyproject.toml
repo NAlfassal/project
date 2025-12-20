@@ -1,7 +1,10 @@
 [project]
 name = "csv-profiler"
 version = "0.1.0"
-description = "Add your description here"
+description = "Analyze CSV files, generate statistical summaries, and export results to JSON or Markdown formats."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "streamlit>=1.52.2",
+    "typer>=0.20.1",
+]
